@@ -1,0 +1,70 @@
+folder:
+devops-maestro/
+│
+├── .github/
+│   └── workflows/
+│       ├── ci.yml
+│       └── cd.yml
+│
+├── terraform/
+│   ├── modules/
+│   │   ├── aws/
+│   │   ├── azure/
+│   │   └── gcp/
+│   ├── environments/
+│   │   ├── dev/
+│   │   ├── staging/
+│   │   └── prod/
+│   └── main.tf
+│
+├── kubernetes/
+│   ├── operators/
+│   │   └── custom-app-operator/
+│   ├── manifests/
+│   └── helm-charts/
+│
+├── monitoring/
+│   ├── lambda-functions/
+│   ├── azure-functions/
+│   └── gcp-functions/
+│
+├── self-healing/
+│   ├── scripts/
+│   └── policies/
+│
+├── cost-optimization/
+│   ├── analysis/
+│   └── recommendations/
+│
+├── compliance/
+│   ├── policies/
+│   └── scripts/
+│
+├── chaos-engineering/
+│   ├── experiments/
+│   └── scenarios/
+│
+├── edge-computing/
+│   ├── deployment/
+│   └── management/
+│
+├── dashboard/
+│   ├── frontend/
+│   └── backend/
+│
+├── docs/
+│   ├── architecture/
+│   ├── setup/
+│   └── user-guide/
+│
+├── scripts/
+│   ├── setup.sh
+│   └── cleanup.sh
+│
+├── tests/
+│   ├── unit/
+│   └── integration/
+│
+├── .gitignore
+├── README.md
+└── LICENSE
